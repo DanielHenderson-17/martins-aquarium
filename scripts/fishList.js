@@ -2,7 +2,7 @@ import { database } from './aquariumData.js'
 
 export const fishList = () => {
     return database.fish.map(fish => `
-        <div class="card">
+        <div class="card fishCard">
             <h3>${fish.name}</h3>
             <img src="${fish.image}" alt="${fish.name}">
             <p>Species: ${fish.species}</p>

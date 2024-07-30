@@ -1,80 +1,65 @@
-/* General Styles */
+/* main.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-}
-
-.section-row {
+main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    padding: 20px;
 }
 
-.card-container, .tips, .locations {
+#fishList, #locationList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 66%;
+}
+
+#tipList {
+    margin: 20px 0;
+    outline: 1px solid rgb(81, 82, 81);
     flex: 1;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-left: 20px;
 }
 
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+#fishList .card, #locationList .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(33% - 20px); /* Adjust width for spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 0.5rem;
-    padding: 1rem;
-    flex: 1 1 calc(50% - 1rem); /* Two cards per row */
-}
-
-.tips ul {
-    list-style-type: none;
+#tipList ul {
     padding: 0;
 }
 
-.tips ul li {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 0.5rem 0;
-    padding: 1rem;
+#tipList ul li {
+    margin-left: 20px;
+    /* background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
-.tips ul li h3 {
-    margin: 0 0 0.5rem;
-}
-
-.card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-}
-
-.card h3 {
-    margin: 0.5rem 0;
-}
-
-.card p {
-    margin: 0.25rem 0;
+section {
+    margin: 20px 0;
+    outline: 1px solid rgb(81, 82, 81);
 }
