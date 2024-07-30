@@ -32,7 +32,6 @@ main {
     outline: 1px solid rgb(81, 82, 81);
     flex: 1;
     padding: 20px;
-    background-color: #f0f0f0;
     margin-left: 20px;
 }
 
@@ -41,7 +40,7 @@ main {
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    width: calc(33% - 20px); /* Adjust width for spacing */
+    width: calc(47% - 20px); /* Adjust width for spacing */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -51,15 +50,13 @@ main {
 
 #tipList ul li {
     margin-left: 20px;
-    /* background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 section {
     margin: 20px 0;
     outline: 1px solid rgb(81, 82, 81);
+}
+
+.fishCard {
+    width: 48%;
 }
