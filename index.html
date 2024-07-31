@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Martin's Aquarium</title>
-   <link rel="stylesheet" href="./styles/main.css">
-   <link rel="stylesheet" href="./styles/layout.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin's Aquarium</title>
+    <link rel="stylesheet" href="./styles/layout.css">
 </head>
+
 <body>
-   <header>
-       <h1>Martin's Aquarium</h1>
-   </header>
+    <header>
+        <h1>Martin's Aquarium</h1>
+    </header>
 
-   <main>
-       <section id="fishList">
-           <!-- Fish grid will be dynamically generated here -->
-       </section>
+    <main class="container">
+        <div class="left">
+            <div class="fish">
+                <h3>Fish</h3>
+                <section id="fishList">
+                    <!-- Fish grid will be dynamically generated here -->
+                </section>
+            </div>
+            <div class="locations">
+                <h3>Locations</h3>
+                <section id="locationList">
+                    <!-- Location grid will be dynamically generated here -->
+                </section>
+            </div>
+        </div>
+        <div class="right">
+            <div class="tips">
+                <h3>Tips</h3>
+                <div class="tips card">
+                    <aside id="tipList">
+                        <!-- Care tips will be dynamically generated here -->
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </main>
 
-       <aside id="tipList">
-           <!-- Care tips will be dynamically generated here -->
-       </aside>
-
-       <section id="locationList">
-           <!-- Location grid will be dynamically generated here -->
-       </section>
-   </main>
-
-   <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/main.js"></script>
 </body>
+
 </html>
