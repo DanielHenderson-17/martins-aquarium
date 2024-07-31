@@ -6,7 +6,7 @@ export const database = {
             length: 3,
             location: "Lake Michigan",
             diet: "Herbivore",
-            image: "https://example.com/images/goldie.jpg"
+            image: "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
         },
         {
             name: "Flipper",
@@ -14,7 +14,7 @@ export const database = {
             length: 6,
             location: "Atlantic Ocean",
             diet: "Carnivore",
-            image: "https://example.com/images/flipper.jpg"
+            image: "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
         },
         {
             name: "Whaley",
@@ -22,7 +22,7 @@ export const database = {
             length: 150,
             location: "Pacific Ocean",
             diet: "Carnivore",
-            image: "https://example.com/images/whaley.jpg"
+            image: "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
         },
         {
             name: "Sammy",
@@ -30,7 +30,7 @@ export const database = {
             length: 24,
             location: "Columbia River",
             diet: "Omnivore",
-            image: "https://example.com/images/sammy.jpg"
+            image: "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
         },
         {
             name: "Sharky",
@@ -38,7 +38,7 @@ export const database = {
             length: 15,
             location: "Indian Ocean",
             diet: "Carnivore",
-            image: "https://example.com/images/sharky.jpg"
+            image: "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
         },
         {
             name: "Bubbles",
@@ -46,7 +46,7 @@ export const database = {
             length: 2,
             location: "Amazon River",
             diet: "Omnivore",
-            image: "https://example.com/images/bubbles.jpg"
+            image: "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
         },
         {
             name: "Jelly",
@@ -54,7 +54,7 @@ export const database = {
             length: 10,
             location: "Mediterranean Sea",
             diet: "Carnivore",
-            image: "https://example.com/images/jelly.jpg"
+            image: "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
         },
         {
             name: "Octo",
@@ -62,7 +62,7 @@ export const database = {
             length: 9,
             location: "Gulf of Mexico",
             diet: "Carnivore",
-            image: "https://example.com/images/octo.jpg"
+            image: "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
         },
         {
             name: "Starry",
@@ -70,7 +70,7 @@ export const database = {
             length: 5,
             location: "Coral Sea",
             diet: "Omnivore",
-            image: "https://example.com/images/starry.jpg"
+            image: "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
         },
         {
             name: "Moby",
@@ -78,7 +78,7 @@ export const database = {
             length: 30,
             location: "South China Sea",
             diet: "Omnivore",
-            image: "https://example.com/images/moby.jpg"
+            image: "https://cdn.britannica.com/05/88205-050-9EEA563C/Bigmouth-buffalo-fish.jpg"
         }
         
     ],
